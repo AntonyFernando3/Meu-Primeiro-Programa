@@ -1,0 +1,271 @@
+/* reset */
+*{margin: 0%;
+    padding: 0%;
+    font-size: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    }
+    
+    img{max-width: 100%;
+    }
+    
+    ul{list-style: none;
+    }
+    
+    a{text-decoration: none;
+    }
+    
+    h2{font-size: 1.5em;
+    color: black;
+    }
+
+    p{font-size: 1em;
+    color: #777;
+    }
+    
+    /* CABEÇALHO */
+    
+    
+    .logo a{ 
+    width: 16px;
+    height: 16px;
+    float: left;
+    background-image: url(../imagens/icone123.png);
+    display: block;
+    font-size: 0; 
+    }
+
+    .cabecalho form{
+        width: 30%;
+        float: right;
+    }
+    
+    /* MENU 8*/
+
+    .menu{width: 100%;
+    float: left;
+    background-color: red;
+    padding: 18px 8%;
+    }
+    
+   .menu img{
+    height: 20px;
+    width: 20px;
+    color: black;
+   }
+
+   .menu li{
+    float: left;
+    }
+    
+    .menu li a{
+    color:white; 
+    margin-right: 20px;
+    }
+    
+    .menu li a:hover{
+        color: #fff;
+        font-size: 1.1em;
+    }
+    
+   
+    /* SOCIAL-ICONS */
+    .social-icons{
+        float: right;
+    }
+    
+    .social-icons a{
+        color: #fff;
+        float: left;
+        margin-left: 20px;
+    }
+    
+    .social-icons .fa-facebook:hover{
+    color: #3b5998;
+    }
+    
+    .social-icons .fa-twitter:hover{
+    color: #3b5998
+    }
+    
+    .social-icons .fa-instagram:hover{
+    color: red;
+    }
+    
+    .social-icons .fa-envelope:hover{
+    color: #3b5998;
+    }
+    
+    .social-icons .fa-google:hover{
+    color: green;
+    }
+    
+    .social-icons .fa-youtube:hover{
+    color: red;
+    }
+    
+    .social-icons .fa-linkedin:hover{
+    color: #3b5998;
+    }
+
+    /* TEXTO */
+    .titulo{
+    font-size: 40px;
+    color: red;
+    text-align: center;}
+
+    .texto{
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    }
+
+    .trens{
+    font-size:40px;
+    color: red;
+    text-align: center;
+    }
+
+    /* PRINCIPAL */
+    
+    .sobre{width: 70%;
+    float: left;
+    padding: 0 20px 20px 0;
+    }
+    
+    .sobre h2{
+    margin-bottom:14px;
+    color: black;
+    }
+    
+    .sobre img{
+     width: 50%;
+    float: left;
+    border-radius: 7px;
+    margin: 0 15px  15px 0;
+    }
+
+    .sobre p{
+    color: black;
+    text-align: justify;
+    font-size: 1.2em;
+    }
+    
+    /* NEWSLETTER */
+    
+    .newsletter{
+    width: 100%;
+    float: left;
+    background-color:red;
+    padding: 50px 8%;
+    }
+    
+    .newsletter h3{
+    font-size: 1.8em;
+    color: white;
+    }
+    
+    .newsletter p{
+    font-size: 1.2em;
+    color:white;
+    }
+    
+    .newsletter form{
+    width: 100%;
+    float: left;
+    margin-top: 10px ;
+    }
+    
+    .newsletter input{
+    width: 40%;
+    margin-right: 1%;
+    padding: 15px 10px;
+    border: 1px solid #fff;
+    background-color: initial;
+    color: white;
+    }
+    
+    .newsletter input ::placeholder{
+    color: white;
+    }
+    
+    .newsletter button{
+    width: 17%;
+    background-color: white;
+    padding: 15px 10px;
+    border-radius: 10px;
+    float: right;
+    cursor: pointer;
+    }
+    
+    /* RODAPE */
+    
+    .rodape{
+    width: 100%;
+    float: left;
+    background-color:blue;
+    padding: 25px 8%;
+    }
+    
+    .rodape p{
+    color:white;
+    }
+    
+    /* PAGINA INICIAL */
+
+    .paginainicial{
+    background-color:red;
+    height: 550px;
+    text-align: center;
+    }
+
+    .paginainicial img{ 
+    height: 70px;
+    width: 70px;
+    }
+
+ /* FALE CONOSCO */
+
+    .centralinformações{
+    font-style:normal ;
+    text-align: center;
+    font-size: 20px;
+    font-style:normal;
+    font-weight: bold;
+    color: black;
+    }
+
+    .imagemfaleconosco img{
+    width: 200px;    
+    height: 200px;  
+    margin-left: center;
+    display: block;
+    margin: auto;
+    }
+  /* RODAPE */
+
+   .rodapedeserviços{
+    margin-top: 150px;
+    width: 30%;
+    float:initial;
+    padding: 0px 8%;
+    margin-bottom: 0px;
+    } 
+
+  /* RESPONSIVIDADE */
+
+ @media screen and (min-width: 320px){
+ .cabecalho h1{
+ width: 250px;
+ height: 200px;
+ font-size: 0%;
+ }
+ }
+
+
+
+    
+
